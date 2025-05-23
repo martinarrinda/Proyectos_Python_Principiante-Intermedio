@@ -19,7 +19,6 @@ while True:
     random.shuffle(contraseña)
     resultado_final = "".join(contraseña)
     print(f"Tu contraseña es: {resultado_final} ")
-    print()
     seguir_jugando = input("Quieres seguir jugando? s/n:")
     if seguir_jugando == "n":
            break
