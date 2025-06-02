@@ -1,0 +1,1 @@
+{'Agua:': 6, 'Sueño:': 8, 'Ejercicio:': 'Si', 'Comida:': 'Si'}
