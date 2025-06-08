@@ -34,7 +34,6 @@ while True:
     media = contador/7
     print(f"Tu media diaria de estudio son {media} horas.")  
     hora_productiva = max(lista)
-    print(hora_productiva)
     if lista[0] == hora_productiva:
          print(f"El dia mas porductivo fue Lunes con {hora_productiva} horas.")
     elif lista[1] == hora_productiva:
@@ -48,8 +47,7 @@ while True:
     elif lista[5] == hora_productiva:
          print(f"El dia mas porductivo fue Sabado con {hora_productiva} horas.")
     elif lista[6] == hora_productiva:
-         print(f"El dia mas porductivo fue Domingo con {hora_productiva} horas.")
-         
+         print(f"El dia mas porductivo fue Domingo con {hora_productiva} horas.")  
     seguir = input("Quires registrar otra semana mas? si/no: ")
     if seguir == "no":
         break
