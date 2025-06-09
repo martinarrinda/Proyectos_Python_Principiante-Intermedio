@@ -11,7 +11,7 @@ while True:
     if ver_actividad.strip().lower() == "si":
         with open("estado.txt","r") as archivo:
             for linea in archivo:
-                print(completo.strip())
+                print(linea.strip())
     elif ver_actividad.strip().lower() == "no":
         break
     
